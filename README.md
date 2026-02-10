@@ -8,15 +8,6 @@ Rather than starting with modeling or analytics, the focus is on **data correctn
 
 The end result is a Postgres-backed warehouse that allows reviewers to run SQL queries against program metadata and multiple representations of program descriptions.
 
-## Development Notes
-
-- **Approximate time spent:** ~7 hours end-to-end  
-  This includes environment setup, data inspection, schema design, ingestion logic, visualization, orchestration, API exposure, and documentation.
-
-- **Use of AI tooling:**  
-  ChatGPT was used as a development aid for brainstorming, debugging, and iteration (similar to how one might use Stack Overflow or documentation search).  
-  All architectural decisions, validation steps, and final implementation choices were made by the author, and the system was built, tested, and verified locally.
-
 ---
 
 ## Key Design Principles
@@ -115,3 +106,9 @@ Run locally with:
 
 ```bash
 dagster dev -m carms_platform.etl.definitions
+```
+
+## Development Notes
+
+- **Approximate time spent:** ~7 hours end-to-end (environment setup, data inspection, schema design, ingestion, visualization, orchestration, API, documentation).
+- **Use of AI tooling:** ChatGPT was used as a development aid for brainstorming, debugging, and iteration (similar to documentation search). Final decisions and validation were performed locally by the author.
