@@ -27,3 +27,6 @@ data/staging/
 **/Thumbs.db
 **/__MACOSX/
 **/._*
+
+# Packaging artifacts
+*.egg-info/
