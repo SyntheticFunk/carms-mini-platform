@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+.pgdata/
+
+# Local raw data
+data/raw/
+data/staging/
+
+# Common metadata junk
+**/IDENTIFIER
+**/.DS_Store
+**/Thumbs.db
+**/__MACOSX/
+**/._*
+
+# Raw / staging data should never be committed
+data/raw/
+data/staging/
+
+# Windows / macOS metadata junk
+**/*Zone.Identifier
+**/IDENTIFIER
+**/.DS_Store
+**/Thumbs.db
+**/__MACOSX/
+**/._*

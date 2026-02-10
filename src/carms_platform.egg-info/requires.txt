@@ -1,0 +1,14 @@
+pandas
+openpyxl
+python-dateutil
+tqdm
+sqlalchemy
+sqlmodel
+psycopg2-binary
+dagster
+dagster-webserver
+fastapi
+uvicorn
+python-dotenv
+pydantic-settings
+pyyaml

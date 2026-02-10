@@ -1,0 +1,26 @@
+[project]
+name = "carms-platform"
+version = "0.1.0"
+description = "Mini CaRMS data platform using Postgres, Dagster, and FastAPI"
+requires-python = ">=3.11"
+
+dependencies = [
+  "pandas",
+  "openpyxl",
+  "python-dateutil",
+  "tqdm",
+  "sqlalchemy",
+  "sqlmodel",
+  "psycopg2-binary",
+  "dagster",
+  "dagster-webserver",
+  "fastapi",
+  "uvicorn",
+  "python-dotenv",
+  "pydantic-settings",
+  "pyyaml",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
